@@ -1,4 +1,4 @@
-#include "GameControl.cpp"
+#include "GameControl.h"
 
 GameControl::GameControl()
 {

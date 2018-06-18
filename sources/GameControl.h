@@ -1,8 +1,11 @@
 #ifndef __GAMECONTROL__H
 #define __GAMECONTROL__H
 
-class GameControl
+#include <QWidget>
+
+class GameControl : public QWidget
 {
+	Q_OBJECT
 	public:
 		GameControl();
 		~GameControl();
